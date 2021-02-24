@@ -1,4 +1,4 @@
-## Carnet de bord : PROJET O’TEL
+# Carnet de bord : PROJET O’TEL
 
 - David Ferrero FrontEnd - Product Owner
 - Mathieu Lasserre FrontEnd - Scrum Master
@@ -10,7 +10,7 @@
 
 Projet visant à créer un site pour un propriétaire de gîte. Ce site devrait permettre à l'avenir d'en gérer le contenu et servir de template pour un générateur de site pour les propriétaires d'établissement de tourisme.
 
-# actuellement
+## actuellement
 
 Côté client du gîte : 
 - créer, modifier, supprimer un profil
