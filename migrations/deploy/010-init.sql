@@ -6,6 +6,8 @@
 
 BEGIN;
 
+DROP TABLE IF EXISTS "role", "user", "housing", "booking", "notice";
+
 CREATE TABLE "role" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
     "label" TEXT NOT NULL
@@ -24,6 +26,7 @@ CREATE TABLE "user" (
 
 CREATE TABLE "housing" (
     "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY, 
+    "house_name" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "place_number" INT NOT NULL,  
     "price" INTEGER NOT NULL, 
